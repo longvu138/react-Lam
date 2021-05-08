@@ -54,7 +54,7 @@ function Login({ navigation }) {
 						/>
 						<TextInput
 							style={styles.textinput}
-							placeholder='Username'
+							placeholder='Tài khoản'
 							onChangeText={(text) =>
 								setUsername(text)
 							}></TextInput>
@@ -69,7 +69,7 @@ function Login({ navigation }) {
 						<TextInput
 							style={styles.textinput}
 							secureTextEntry={true}
-							placeholder='Password'
+							placeholder='Mật khẩu'
 							onChangeText={(text) =>
 								setPassword(text)
 							}></TextInput>
@@ -79,7 +79,7 @@ function Login({ navigation }) {
 					<TouchableOpacity
 						style={styles.button}
 						onPress={handleLogin}>
-						<Text style={styles.txtLogin}>Log in</Text>
+						<Text style={styles.txtLogin}>Đăng nhập</Text>
 					</TouchableOpacity>
 				</View>
 				{/* <View style={styles.view}>
