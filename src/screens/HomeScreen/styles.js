@@ -1,15 +1,27 @@
 /** @format */
 
 import { StyleSheet } from "react-native";
+import { Dimensions } from "react-native";
+
+const dimensions = Dimensions.get("window");
 
 const styles = StyleSheet.create({
 	container: {
+		alignItems:"center",
 		flex: 1,
 		backgroundColor: "#fff",
 	},
 	Header: {
+		borderBottomWidth: 0,
+
 		fontWeight: "bold",
 		fontSize: 30,
+	},
+	StyleImage:{
+		width: 150,
+		height: 200,
+		marginTop:20
+
 	},
 	content: {
 		justifyContent: "center",

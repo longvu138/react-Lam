@@ -8,11 +8,12 @@ const styles = StyleSheet.create({
 		flexDirection: "row",
 		justifyContent: "center",
 		alignItems: "center",
-		borderBottomColor: "#000",
-		borderBottomWidth: 1,
+		// borderBottomColor: "#000",
+		// borderBottomWidth: 1,
+	
 	},
 	header: {
-		fontSize: 28,
+		fontSize: 25,
 		marginHorizontal: 60,
 		fontWeight: "bold",
 	},
